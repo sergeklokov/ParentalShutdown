@@ -1,0 +1,1 @@
+Just run it, and this application will shutdown Windows computer in 1 hour. 

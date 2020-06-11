@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParentalShutdown", "ParentalShutdown\ParentalShutdown.csproj", "{A941438F-7D18-445F-AFBF-27752E2E2891}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{21807877-2CC3-4F7F-AEDF-F4D17E2EE00C}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Executable", "Executable", "{532A8D69-C988-4ECC-8981-CD207E6255E8}"
+	ProjectSection(SolutionItems) = preProject
+		ParentalShutdown\bin\Debug\ParentalShutdown.exe = ParentalShutdown\bin\Debug\ParentalShutdown.exe
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A941438F-7D18-445F-AFBF-27752E2E2891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A941438F-7D18-445F-AFBF-27752E2E2891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A941438F-7D18-445F-AFBF-27752E2E2891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A941438F-7D18-445F-AFBF-27752E2E2891}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9414F43E-A1B4-4012-A47D-07866B969277}
+	EndGlobalSection
+EndGlobal

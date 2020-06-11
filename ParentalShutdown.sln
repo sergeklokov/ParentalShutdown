@@ -13,6 +13,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Executable", "Executable", "{532A8D69-C988-4ECC-8981-CD207E6255E8}"
 	ProjectSection(SolutionItems) = preProject
 		ParentalShutdown\bin\Debug\ParentalShutdown.exe = ParentalShutdown\bin\Debug\ParentalShutdown.exe
+		ParentalShutdown\bin\Debug\ParentalShutdown.exe.config = ParentalShutdown\bin\Debug\ParentalShutdown.exe.config
 	EndProjectSection
 EndProject
 Global

@@ -20,13 +20,14 @@ namespace ParentalShutdown
             //Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
 
-            int period = 60 * 60;
-            var secondsInOneHour = 60 * 60;
-            var secondsInFiveMinutes = 5 * 60;
+            //int periodInSeconds = 60 * 60;
+            //var secondsInOneHour = 60 * 60;
+            //var secondsInFiveMinutes = 5 * 60;
+            var thirtySeconds = 30;
 
-            period = secondsInFiveMinutes;
+            var periodInSeconds = thirtySeconds;
 
-            Thread.Sleep(period);
+            Thread.Sleep(periodInSeconds * 1000);
 
             Shutdown();
 

@@ -14,7 +14,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Executable", "Executable", 
 	ProjectSection(SolutionItems) = preProject
 		ParentalShutdown\bin\Debug\ParentalShutdown.exe = ParentalShutdown\bin\Debug\ParentalShutdown.exe
 		ParentalShutdown\bin\Debug\ParentalShutdown.exe.config = ParentalShutdown\bin\Debug\ParentalShutdown.exe.config
+		Setup\Debug\setup.exe = Setup\Debug\setup.exe
+		Setup\Debug\Setup.msi = Setup\Debug\Setup.msi
 	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ParentalShutdownSetup", "Setup\Setup.vdproj", "{8DAC7DDE-A111-46B6-BC27-99045A2E18FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +30,8 @@ Global
 		{A941438F-7D18-445F-AFBF-27752E2E2891}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A941438F-7D18-445F-AFBF-27752E2E2891}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A941438F-7D18-445F-AFBF-27752E2E2891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DAC7DDE-A111-46B6-BC27-99045A2E18FB}.Debug|Any CPU.ActiveCfg = Debug
+		{8DAC7DDE-A111-46B6-BC27-99045A2E18FB}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

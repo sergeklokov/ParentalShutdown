@@ -5,30 +5,36 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Management;
+using System.Diagnostics;
 
 namespace ParentalShutdown
 {
     static class Program
     {
+        const int OneHour = 60; // one hour by default
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form1());
+            int periodInMinutes = OneHour; 
 
-            //int periodInSeconds = 60 * 60;
-            //var secondsInOneHour = 60 * 60;
-            //var secondsInFiveMinutes = 5 * 60;
-            var thirtySeconds = 30;
+            if (args != null && args.Length > 0) {
+                var isSuccess = Int32.TryParse(args[0], out periodInMinutes);
 
-            var periodInSeconds = thirtySeconds;
+                if (!isSuccess)
+                {
+                    EventLog.WriteEntry("Application", $"Parental Shutdown. Can't convert parameter '{args[0]}' to integer minutes.", EventLogEntryType.Error);
+                    periodInMinutes = OneHour;
+                }
 
-            Thread.Sleep(periodInSeconds * 1000);
+            }
 
+            Thread.Sleep(periodInMinutes * 60 * 1000);
+
+            EventLog.WriteEntry("Application", $"Parental Shutdown. Shutting down after {periodInMinutes} minutes.", EventLogEntryType.Information);
             Shutdown();
 
         }

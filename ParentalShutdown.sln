@@ -7,7 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParentalShutdown", "Parenta
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{21807877-2CC3-4F7F-AEDF-F4D17E2EE00C}"
 	ProjectSection(SolutionItems) = preProject
-		ParentalShutdown\bin\Debug\ParentalShutdown.executables.zip = ParentalShutdown\bin\Debug\ParentalShutdown.executables.zip
 		ReadMe.txt = ReadMe.txt
 	EndProjectSection
 EndProject

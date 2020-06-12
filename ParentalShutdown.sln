@@ -14,7 +14,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Executable", "Executable", 
 	ProjectSection(SolutionItems) = preProject
 		ParentalShutdown\bin\Debug\ParentalShutdown.exe = ParentalShutdown\bin\Debug\ParentalShutdown.exe
 		ParentalShutdown\bin\Debug\ParentalShutdown.exe.config = ParentalShutdown\bin\Debug\ParentalShutdown.exe.config
-		ParentalShutdownSetup\Debug\ParentalShutdownSetup.msi = ParentalShutdownSetup\Debug\ParentalShutdownSetup.msi
 		ParentalShutdownSetup\Debug\setup.exe = ParentalShutdownSetup\Debug\setup.exe
 	EndProjectSection
 EndProject

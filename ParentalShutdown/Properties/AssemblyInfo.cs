@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ParentalShutdown")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Shut Down computer after some time")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP Inc.")]
+[assembly: AssemblyCompany("Serge Klokov")]
 [assembly: AssemblyProduct("ParentalShutdown")]
-[assembly: AssemblyCopyright("Copyright © HP Inc. 2020")]
+[assembly: AssemblyCopyright("Copyright © Serge Klokov")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

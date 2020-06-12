@@ -15,20 +15,20 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_61882D116DE0491EA4072EFA297E4008"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_89E0E82707934CA3AA3897390E3DD67B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_BF1C80E3FA5C434F8C425DB682F7C4CC"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_D271A127656AE1177017909E7DC970AB"
-        "OwnerKey" = "8:_BF1C80E3FA5C434F8C425DB682F7C4CC"
+        "OwnerKey" = "8:_61882D116DE0491EA4072EFA297E4008"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -40,7 +40,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BF1C80E3FA5C434F8C425DB682F7C4CC"
+        "OwnerKey" = "8:_61882D116DE0491EA4072EFA297E4008"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -214,7 +214,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ParentalShutdownSetup"
         "ProductCode" = "8:{3F976CE5-37B5-4C0C-9345-3B07046F9CE3}"
-        "PackageCode" = "8:{4340749B-65EB-4B6F-BA2D-159C46779028}"
+        "PackageCode" = "8:{82F163B5-0469-470F-AE6C-8CDC266E0011}"
         "UpgradeCode" = "8:{F59DFE39-F363-41EA-A2D7-A7E4C62ED3CF}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -747,7 +747,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_BF1C80E3FA5C434F8C425DB682F7C4CC"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_61882D116DE0491EA4072EFA297E4008"
             {
             "SourcePath" = "8:..\\ParentalShutdown\\obj\\Debug\\ParentalShutdown.exe"
             "TargetName" = "8:"
